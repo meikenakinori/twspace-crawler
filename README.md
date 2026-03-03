@@ -62,7 +62,7 @@ docker run --rm \
   -e TWITTER_CSRF_TOKEN=<csrf_token> \
   -v ./logs:/app/logs \
   -v ./download:/app/download \
-  ghcr.io/hitomarukonpaku/twspace-crawler \
+  ghcr.io/meikenakinori/twspace-crawler:master \
   --id 1mnGeRRRwkrJX
 ```
 
